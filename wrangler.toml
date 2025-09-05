@@ -1,7 +1,22 @@
-name = "codeassylum-comingsoon"
+name = "codeassylum-enterprise"
 main = "index.js"
-compatibility_date = "2025-09-04"
+compatibility_date = "2025-09-05"
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "SIGNUPS"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
 
 [vars]
-COMPANY_NAME = "Code Assylum"
-AUTHOR_NAME = "Prince Jagaban (The Tech Monarch)"
+BRAND = "CodeAssylum"
+TAGLINE = "AI-powered developer tools & enterprise automation"
+OWNER = "Prince Jagaban · The Tech Monarch"
+CONTACT_EMAIL = "hello@codeassylum.com"
+GITHUB_URL = "https://github.com/codeassylum"
+X_URL = "https://x.com/codeassylum"
+LINKEDIN_URL = "https://www.linkedin.com/company/codeassylum"
+PRIMARY = "#6b21a8"
+ACCENT = "#06b6d4"
+DARK = "#030312"
+LIGHT = "#f8fafc"
+LAUNCH_AT = "2025-11-01T12:00:00Z"
